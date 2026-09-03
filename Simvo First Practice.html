@@ -1,0 +1,39 @@
+<html>
+<body>
+    <div id="title">
+    <h1>Welcome to Amblessed Polycarp's Web Page</h1>
+    <p>This is where dreams come through!</p>
+    <button onclick="Makedreamscomethrough()">Make your dream come through</button>
+    </div>
+</body>
+</html>
+<style>
+    body {
+        background-image: url("https://www.bhg.com/thmb/VQRAPZWtSm-cz_lC_Scg77UCths=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/back-yard-fire-pit-deck-bc1d716b-f8ac9935591e4699828efa7821bb6c17.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    h1 {
+       color: orange; 
+    }
+    button:hover {
+  background-color: orange;
+  cursor: pointer;
+  font-size: 20px;
+}
+#title {
+    border: 2px solid rgb(211, 242, 211);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+</style>
+<script>
+    function Makedreamscomethrough() {
+        alert("Dream has come through")
+        document.body.style.background = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW15c2Zvd2FvcndvZWx6Nmw5eWN1Ym5oZ2k2NWVsc2pmcDdpaGk5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FNNqGmz45vV28/giphy.gif')";
+        document.getElementById("title").style.visibility = "hidden";
+    }
+</script>
