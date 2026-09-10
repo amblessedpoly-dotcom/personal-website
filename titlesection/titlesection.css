@@ -9,4 +9,6 @@ button:hover {
 #title {
     text-align: center;
     padding-top: 200px;
+    background-image: url('../Images/jess-bailey-l3N9Q27zULw-unsplash.jpg');
+    background-position: center top;
 }
