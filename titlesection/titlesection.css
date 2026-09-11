@@ -1,14 +1,26 @@
-h1 {
-       color: orange; 
+:root{
+    --titlesectionprimarycolour: orangered;
 }
-button:hover {
-  background-color: red;
-  cursor: pointer;
-  font-size: 20px;
-}
+
 #title {
+    color: var(--titlesectionprimarycolour);
     text-align: center;
     padding-top: 200px;
     background-image: url('../Images/jess-bailey-l3N9Q27zULw-unsplash.jpg');
     background-position: center top;
 }
+
+.title-section-button{
+    color: var(--titlesectionprimarycolour);
+    border: solid var(--titlesectionprimarycolour) 1px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+.title-section-button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-size: 14px;
+}
+
