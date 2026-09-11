@@ -5,9 +5,9 @@
 </head>
 <body>
     <div class="main-section" id="title">
-        <h1>Welcome to Amblessed Polycarp's Web Page</h1>
-        <p>This is where dreams come through!</p>
-        <button class="title-section-button" onclick="Makedreamscomethrough()">Make your dream come through</button>
+        <h1 class="title-section-header">Amblessed Polycarp</h1>
+        <p class="title-section-subtitle">Empowering the Next Generation Through Education</p>
+        <button class="title-section-button" onclick="Makedreamscomethrough()">Bridging theory and practice</button>
     </div>
 </body>
 </html>
@@ -23,18 +23,21 @@ html, body {
     padding: 0px;
 }
 
-   .main-section{
-        width: 100vw;
-        height: 100vh;
-        background-size: cover; 
-        background-repeat: no-repeat;
-   }
+.main-section{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 25px;
+}
 
 </style>
+
 <script>
-    function Makedreamscomethrough() {
-        alert("Dream has come through")
-        document.body.style.background = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW15c2Zvd2FvcndvZWx6Nmw5eWN1Ym5oZ2k2NWVsc2pmcDdpaGk5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FNNqGmz45vV28/giphy.gif')";
-        document.getElementById("title").style.visibility = "hidden";
-    }
+
+function Makedreamscomethrough() {
+    alert("Dream has come through")
+    document.body.style.background = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW15c2Zvd2FvcndvZWx6Nmw5eWN1Ym5oZ2k2NWVsc2pmcDdpaGk5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FNNqGmz45vV28/giphy.gif')";
+    document.getElementById("title").style.visibility = "hidden";
+}
 </script>
