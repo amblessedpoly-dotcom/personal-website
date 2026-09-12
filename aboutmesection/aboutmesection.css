@@ -10,6 +10,7 @@
 .aboutme-icons{
     font-size: 25px;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .aboutme-icons{
@@ -20,4 +21,11 @@
     cursor: pointer;
     color: var(--titlesectionsecondarycolour);
 
+}
+.aboutme-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+.about-me-download-link > a {
+    color: var(--titlesectionsecondarycolour);
 }
