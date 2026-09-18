@@ -1,0 +1,18 @@
+#craps-game {
+        Background-image: url('../images/Craps-Games-Lagos.jpg');
+        background-position: center top;
+        color: orangered;
+}
+.craps-game-title {
+text-align: center;
+margin-top: 100px;
+}
+.craps-game-container {
+    width: min(700px, 80vw);
+    height: min(500px, 85vw);
+    border: solid blue 2px;
+    margin: 100px auto 0 ;
+    Background-image: url('../Images/Poker-Table.png');
+    Background-size: cover;
+    background-position: center top;
+}
