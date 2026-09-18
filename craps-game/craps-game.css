@@ -16,7 +16,7 @@ margin-top: 100px;
     Background-size: cover;
     background-position: center top;
 }
-.craps-registration-pane{
+#craps-registration-pane{
     margin-top: 55px;
     text-align: center;
 }
@@ -37,4 +37,7 @@ margin-top: 100px;
 .craps-registration-continue:hover{
     cursor: pointer;
     font-weight: bold;
+}
+.craps-main-section{
+    display: none;
 }

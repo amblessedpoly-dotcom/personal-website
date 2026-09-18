@@ -78,7 +78,7 @@
     <div class="main-section" id="Craps-Game">
         <h1 class="craps-game-title">Craps Casino Game</h1>
         <div class="craps-game-container">
-            <div class="craps-registration-pane">
+            <div id="craps-registration-pane">
                 <div>
                     Enter Username to Begin
                 </div>
@@ -90,8 +90,11 @@
                 </div>
             
             </div>
-                            
+            <div id="craps-main-section">
+            MAIN SECTION HERE
+        </div>               
         </div>
+        
     </div>
 
 </body>
@@ -133,15 +136,14 @@ html, body {
 }
 
 </style>
+<script src="./craps-game/craps-game.js"></script>
 
 <script>
 
 function Makedreamscomethrough() {
     alert("Dream has come through")
     document.body.style.background = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW15c2Zvd2FvcndvZWx6Nmw5eWN1Ym5oZ2k2NWVsc2pmcDdpaGk5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FNNqGmz45vV28/giphy.gif')";
-    document.getElementById("title").style.visibility = "hidden";
+    document.getElementById("title").style.visibility = "hidden"
 }
-function registeredcrapsplayer() {
-    let crapsUsername = (document.getElementById("craps-username-input").value)
-}
+
 </script>
