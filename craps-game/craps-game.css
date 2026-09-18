@@ -16,3 +16,25 @@ margin-top: 100px;
     Background-size: cover;
     background-position: center top;
 }
+.craps-registration-pane{
+    margin-top: 55px;
+    text-align: center;
+}
+.craps-registration-input{
+    background: none;
+    border: none;
+    border-bottom: solid blue 1px;
+    margin: 25px;
+    color: blue;
+    text-align: center;
+}
+.craps-registration-input:focus{
+    outline-width: 0;
+}
+.craps-registration-continue{
+    margin-top: 25px;
+}
+.craps-registration-continue:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
